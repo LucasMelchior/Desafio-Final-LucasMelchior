@@ -1,0 +1,109 @@
+Body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #3C3A3C;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h4 {
+    padding: 10px 30px;
+    font-weight: bold
+}
+
+table {
+    text-align: center;
+    width: 80%;
+}
+
+thead {
+    color: white;
+    font-weight: bold;
+    background-color: #3C3A3C;
+}
+
+th,td {
+    padding: 12px;    
+    border-top: 1px solid #EDF0EF; 
+    font-size: 13px;       
+}
+
+.fundobege {
+    background-color: #EDF0EF;
+    width: 100%;
+    padding: 20px;
+}
+
+.esquerdo{
+    border-radius: 10px 0px 0px 0px;
+}
+
+.direito{
+    border-radius: 0px 10px 0px 0px;
+}
+
+
+.fundocinza{
+    background-color: #E0E0E0;
+    width: 13.7%;
+}
+
+.fundologo {
+    background-color: #3C3A3C;
+    width: 12%;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.tabela {
+    background-color: white;      
+}
+
+.adicionar {
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    width: 30px;
+    height:30px;
+    font-size: 20px;
+    border: none;           
+}
+
+.adicionar:hover {
+    cursor: pointer;
+}
+
+.verCliente {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttonAcao {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.usuario {
+    margin-left: 1000px;
+    background-image: url('Fundologin.png');
+}
+
+
